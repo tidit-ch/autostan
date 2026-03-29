@@ -1,0 +1,19 @@
+[project]
+name = "autostan"
+version = "0.1.0"
+description = "Autonomous Bayesian model improvement via scalar reward"
+requires-python = ">=3.10"
+dependencies = [
+    "cmdstanpy",
+    "matplotlib",
+    "numpy",
+    "scipy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+analysis = [
+    "tabpfn==2.2.1",
+]

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(datasets/*/model.stan)",
+      "Write(datasets/*/model.stan)",
+      "Write(results/*)",
+      "Edit(results/*)",
+      "Read",
+      "Glob",
+      "Grep",
+      "Bash(python datasets/*/protected/evaluate.py:*)"
+    ],
+    "deny": [
+      "Read(datasets/*/protected/*)",
+      "Glob(datasets/*/protected/*)",
+      "Grep(datasets/*/protected/*)"
+    ]
+  }
+}

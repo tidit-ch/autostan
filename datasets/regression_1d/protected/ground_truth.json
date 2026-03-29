@@ -1,0 +1,13 @@
+{
+  "oracle_nlpd": 0.9443,
+  "outlier_indices": [
+    61,
+    31,
+    67,
+    42
+  ],
+  "mean_function": "2 * sin(1.2 * x) + 0.3 * x",
+  "sigma_function": "0.3 + 0.8 * exp(-0.5 * ((x - 3) / 1.5)^2)",
+  "n_train": 68,
+  "n_test": 30
+}

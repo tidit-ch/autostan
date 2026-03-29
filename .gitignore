@@ -1,0 +1,23 @@
+# Compiled Stan models
+model
+*.hpp
+
+# Python
+__pycache__/
+*.pyc
+
+# cmdstanpy
+.cmdstan/
+
+# OS
+.DS_Store
+paper/paper.aux
+paper/paper.log
+paper/paper.out
+paper/paper.toc
+paper/paper.pdf
+paper/paper.fdb_latexmk
+paper/paper.fls
+paper/paper.synctex.gz
+paper/paper.bbl
+paper/paper.blg
