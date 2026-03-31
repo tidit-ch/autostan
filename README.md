@@ -7,6 +7,8 @@ A coding agent iteratively edits a Stan model, evaluates it via NLPD on held-out
 > **For practical use on your own data**, see the [AutoStan skill](https://github.com/tidit-ch/autostan-skill) — a self-contained Claude Code skill that runs the full AutoStan loop without requiring a protected evaluation script.
 > This repository contains the code to reproduce the experiments **in the preprint**.
 
+Preprint: http://arxiv.org/abs/2603.27766
+
 ## Setup
 
 ```bash
